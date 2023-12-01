@@ -1,0 +1,22 @@
+body {
+  background-color: #DBF9FC;
+  
+  /* Additional styling starts below. */
+  
+  font-family: 'Lexend Deca', sans-serif;
+  width: 800px; 
+  margin: auto;
+  color: #2E475D;
+}
+
+table {
+  padding: 10px;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+}
+
+td, th {
+  border: none;
+  padding-top: 20px;
+}
