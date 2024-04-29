@@ -1,8 +1,16 @@
 body {
-  background-color: #0a120f;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 48%, rgb(0, 51, 153) 100%); 
   
   /* Additional styling starts below. */
   wholepage { position:absolute; margin:0px; width:100%; }
+  .header{background-color:#000;color:#fff;width:100%;min-height:40px;}
+  a{color:#fff;font-size:120%;line-height:2em;margin:10px;}
+  h1{ color: #c4f9e3; font-family: "roboto";font-size: 150%;line-height: 20px;}
+  p{margin-top:1em;font-family: "Lexend Deca";font-size:80%;color:#c4f9e3;}
+  .table{display:table;width:55%;margin:0 auto;}
+  .row{display:table-row;}
+  .cell{display:table-cell;padding:2em;width:50%;}
   
   font-family: 'Lexend Deca', roboto;
   width: 800px; 
@@ -21,3 +29,4 @@ td, th {
   border: none;
   padding-top: 20px;
 }
+
